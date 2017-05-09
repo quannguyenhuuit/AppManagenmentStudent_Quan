@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		36077B8B1EBF8887006184E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36077B8A1EBF8887006184E2 /* AppDelegate.swift */; };
 		36077B8D1EBF8887006184E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36077B8C1EBF8887006184E2 /* ViewController.swift */; };
-		36077B901EBF8887006184E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36077B8E1EBF8887006184E2 /* Main.storyboard */; };
 		36077B921EBF8887006184E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36077B911EBF8887006184E2 /* Assets.xcassets */; };
 		36077B951EBF8887006184E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36077B931EBF8887006184E2 /* LaunchScreen.storyboard */; };
 		36077BA01EBF8889006184E2 /* AppManagenmentStudent_QuanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36077B9F1EBF8889006184E2 /* AppManagenmentStudent_QuanTests.swift */; };
 		36077BAB1EBF8889006184E2 /* AppManagenmentStudent_QuanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36077BAA1EBF8889006184E2 /* AppManagenmentStudent_QuanUITests.swift */; };
+		362BE9D01EC2243900C4B6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362BE9CF1EC2243900C4B6BE /* Main.storyboard */; };
+		362BE9D31EC2254000C4B6BE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BE9D21EC2254000C4B6BE /* Student.swift */; };
+		362BE9D51EC2255D00C4B6BE /* StudentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BE9D41EC2255D00C4B6BE /* StudentList.swift */; };
+		362BE9D71EC2257800C4B6BE /* TempStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BE9D61EC2257800C4B6BE /* TempStudent.swift */; };
+		362BE9DB1EC225B500C4B6BE /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BE9DA1EC225B500C4B6BE /* StudentTableViewController.swift */; };
+		362BE9DD1EC225DA00C4B6BE /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BE9DC1EC225DA00C4B6BE /* StudentDetailViewController.swift */; };
+		362BE9DF1EC2260000C4B6BE /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362BE9DE1EC2260000C4B6BE /* AddStudentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 		36077B871EBF8887006184E2 /* AppManagenmentStudent_Quan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppManagenmentStudent_Quan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36077B8A1EBF8887006184E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36077B8C1EBF8887006184E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36077B8F1EBF8887006184E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36077B911EBF8887006184E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36077B941EBF8887006184E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36077B961EBF8887006184E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		36077BA61EBF8889006184E2 /* AppManagenmentStudent_QuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppManagenmentStudent_QuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36077BAA1EBF8889006184E2 /* AppManagenmentStudent_QuanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManagenmentStudent_QuanUITests.swift; sourceTree = "<group>"; };
 		36077BAC1EBF8889006184E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362BE9CF1EC2243900C4B6BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		362BE9D21EC2254000C4B6BE /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		362BE9D41EC2255D00C4B6BE /* StudentList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentList.swift; sourceTree = "<group>"; };
+		362BE9D61EC2257800C4B6BE /* TempStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempStudent.swift; sourceTree = "<group>"; };
+		362BE9DA1EC225B500C4B6BE /* StudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		362BE9DC1EC225DA00C4B6BE /* StudentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		362BE9DE1EC2260000C4B6BE /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,9 @@
 		36077B891EBF8887006184E2 /* AppManagenmentStudent_Quan */ = {
 			isa = PBXGroup;
 			children = (
-				36077B8A1EBF8887006184E2 /* AppDelegate.swift */,
-				36077B8C1EBF8887006184E2 /* ViewController.swift */,
-				36077B8E1EBF8887006184E2 /* Main.storyboard */,
+				362BE9D11EC2252600C4B6BE /* Model */,
+				36B98B1A1EC22BB00049F27F /* View */,
+				362BE9D91EC2259E00C4B6BE /* Controller */,
 				36077B911EBF8887006184E2 /* Assets.xcassets */,
 				36077B931EBF8887006184E2 /* LaunchScreen.storyboard */,
 				36077B961EBF8887006184E2 /* Info.plist */,
@@ -123,6 +135,36 @@
 				36077BAC1EBF8889006184E2 /* Info.plist */,
 			);
 			path = AppManagenmentStudent_QuanUITests;
+			sourceTree = "<group>";
+		};
+		362BE9D11EC2252600C4B6BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				362BE9D21EC2254000C4B6BE /* Student.swift */,
+				362BE9D41EC2255D00C4B6BE /* StudentList.swift */,
+				362BE9D61EC2257800C4B6BE /* TempStudent.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		362BE9D91EC2259E00C4B6BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				362BE9DA1EC225B500C4B6BE /* StudentTableViewController.swift */,
+				362BE9DC1EC225DA00C4B6BE /* StudentDetailViewController.swift */,
+				362BE9DE1EC2260000C4B6BE /* AddStudentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		36B98B1A1EC22BB00049F27F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36077B8A1EBF8887006184E2 /* AppDelegate.swift */,
+				36077B8C1EBF8887006184E2 /* ViewController.swift */,
+				362BE9CF1EC2243900C4B6BE /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362BE9D01EC2243900C4B6BE /* Main.storyboard in Resources */,
 				36077B951EBF8887006184E2 /* LaunchScreen.storyboard in Resources */,
 				36077B921EBF8887006184E2 /* Assets.xcassets in Resources */,
-				36077B901EBF8887006184E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362BE9DF1EC2260000C4B6BE /* AddStudentViewController.swift in Sources */,
+				362BE9D71EC2257800C4B6BE /* TempStudent.swift in Sources */,
 				36077B8D1EBF8887006184E2 /* ViewController.swift in Sources */,
+				362BE9DD1EC225DA00C4B6BE /* StudentDetailViewController.swift in Sources */,
+				362BE9DB1EC225B500C4B6BE /* StudentTableViewController.swift in Sources */,
+				362BE9D31EC2254000C4B6BE /* Student.swift in Sources */,
 				36077B8B1EBF8887006184E2 /* AppDelegate.swift in Sources */,
+				362BE9D51EC2255D00C4B6BE /* StudentList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		36077B8E1EBF8887006184E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36077B8F1EBF8887006184E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		36077B931EBF8887006184E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +545,7 @@
 				36077BB11EBF8889006184E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36077BB21EBF8889006184E2 /* Build configuration list for PBXNativeTarget "AppManagenmentStudent_QuanTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +554,7 @@
 				36077BB41EBF8889006184E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36077BB51EBF8889006184E2 /* Build configuration list for PBXNativeTarget "AppManagenmentStudent_QuanUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +563,7 @@
 				36077BB71EBF8889006184E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
